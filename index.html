@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul>
+        <li>product-1</li>
+        <li>product-2</li>
+        <li>product-3</li>
+        <li>product-4</li>
+    </ul>
+<form action="https://www.payfast.co.za/eng/process" method="post">
+    <input type="hidden" name="merchant_id" value="10000100">
+    <input type="hidden" name="merchant_key" value="46f0cd694581a">
+    <input type="hidden" name="amount" value="0.00">
+    <input type="hidden" name="item_name" value="Test Product">
+    <input type="hidden" name="name_first" value="John">
+    <input type="hidden" name="name_last" value="Doe">
+    <input type="hidden" name="email_address" value="robeykb@gmail.com">
+    <input type="hidden" name="cell_number" value="0823456789"> 
+    <input type="hidden" name="m_payment_id" value="01AB">
+    <input type="hidden" name="item_description" value="A test product">
+    <input type="hidden" name="custom_int1" value="2">
+    <input type="hidden" name="custom_str1" value="Extra order information">
+    <input type="hidden" name="email_confirmation" value="1">
+    <input type="hidden" name="confirmation_address" value="robeykb@gmail.com">
+    <!-- <input type="hidden" name="signature" value="f103e22c0418655fb03991538c51bfd5"> -->
+    <button type="submit">submit</button>
+
+ </form> 
+
+<script src="checkout.js"></script>
+</body>
+</html>
